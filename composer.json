@@ -1,0 +1,22 @@
+{
+  "name": "exaowl/fibonacci",
+  "description": "",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ExaOwl\\Fibonacci\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Leonardo Yanes Batista",
+      "email": "leo95batista@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "require": {
+    "ext-gmp": "*"
+  }
+}
